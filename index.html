@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple tribute page of Nikola Tesla">
-    <meta name="keywords" content="Tribute, Nikola, Tesla">
-    <title>Tribute to Nikola Tesla</title>
+    <meta name="description" content="A simple tribute to Steve Jobs">
+    <meta name="keywords" content="Tribute, Steve Jobs">
+    <title>Tribute to Steve Jobs</title>
     <!--Link css file-->
     <link rel="stylesheet" href="styles.css">
     <!--Link javascript file-->
@@ -13,334 +13,459 @@
     <!--Link fontawesome icons-->
     <script src="https://kit.fontawesome.com/2285801f71.js" crossorigin="anonymous"></script>
 
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+
 </head>
 
-<body>
-    <nav class="fixed-left">
-        <ul>
-            <li id="btn-life" class="btn active" onclick="show('life')">
-                <i class="fas fa-user"></i>
-                <label>Bio</label>
-            </li>
-            <li id="btn-early" class="btn" onclick="show('early')">
-                <i class="fas fa-heart"></i>
-                <label>Early years</label>
-            </li>
-            <li id="btn-work" class="btn" onclick="show('work')">
-                <i class="fas fa-briefcase"></i>
-                <label>Work</label>
-            </li>
-            <li id="btn-legacy" class="btn" onclick="show('legacy')">
-                <i class="fas fa-bolt"></i>
-                <label>Legacy</label>
-            </li>
-            <a href="https://en.wikipedia.org/wiki/Nikola_Tesla">
-                <li id="btn-more" class="btn">
-                    <i class="fas fa-plus"></i>
-                    <label>More</label>
-                </li>
-            </a>
-
-        </ul>
-    </nav>
-    <header class="title-container d-flex">
-        <div class="d-block">
-            <h1 class="title">Nikola Tesla</h1>
-            <small>From <a href="https://en.wikipedia.org/wiki/Nikola_Tesla">Wikipedia</a>, the free
-                encyclopedia</small>
-        </div>
-        <span class="source-code">
-            <a href="https://github.com/carlosehernandezr/simple-tribute-page"> <i class="fa fa-github"></i></a>
-        </span>
-    </header>
-
-    <section>
-        <article id="life" class="article-active">
-            <div class="d-flex">
-                <figure class="img-tesla">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/220px-N.Tesla.JPG"
-                        alt="Tesla c. 1896">
-                </figure>
-                <p>Nikola Tesla (/ˈtɛslə/; Serbian Cyrillic: Никола Тесла;[2] pronounced [nǐkola têsla];[a] 10 July 1856
-                    – 7 January 1943) was a Serbian-American[4][5][6] inventor, electrical engineer, mechanical
-                    engineer, and futurist who is best known for his contributions to the design of the modern
-                    alternating current (AC) electricity supply system
-                    <br><br>
-                    Born and raised in the Austrian Empire, Tesla studied engineering and physics in the 1870s without
-                    receiving a degree, and gained practical experience in the early 1880s earlying in telephony and at
-                    Continental Edison in the new electric power industry. In 1884 he emigrated to the United States,
-                    where he became a naturalized citizen. He earlyed for a short time at the Edison Machine earlys in
-                    New
-                    York City before he struck out on his own. With the help of partners to finance and market his
-                    ideas, Tesla set up laboratories and companies in New York to develop a range of electrical and
-                    mechanical devices. His alternating current (AC) induction motor and related polyphase AC more,
-                    licensed by Westinghouse Electric in 1888, earned him a considerable amount of money and became the
-                    cornerstone of the polyphase system which that company eventually marketed.</p>
-
-            </div>
-            <p>Attempting to develop inventions he could patent and market, Tesla conducted a range of experiments with
-                mechanical oscillators/generators, electrical discharge tubes, and early X-ray imaging. He also built a
-                wireless-controlled boat, one of the first ever exhibited. Tesla became well known as an inventor and
-                demonstrated his achievements to celebrities and wealthy patrons at his lab, and was noted for his
-                showmanship at public lectures. Throughout the 1890s, Tesla pursued his ideas for wireless lighting and
-                worldwide wireless electric power distribution in his high-voltage, high-frequency power experiments in
-                New York and Colorado Springs. In 1893, he made pronouncements on the possibility of wireless
-                communication with his devices. Tesla tried to put these ideas to practical use in his unfinished
-                Wardenclyffe Tower project, an intercontinental wireless communication and power transmitter, but ran
-                out of funding before he could complete it.[8]</p>
-            <p>
-                After Wardenclyffe, Tesla experimented with a series of inventions in the 1910s and 1920s with varying
-                degrees of success. Having spent most of his money, Tesla lived in a series of New York hotels, leaving
-                behind unpaid bills. He died in New York City in January 1943.[9] Tesla's early fell into relative
-                obscurity following his death, until 1960, when the General Conference on Weights and Measures named the
-                SI unit of magnetic flux density the tesla in his honor.[10] There has been a resurgence in popular
-                interest in Tesla since the 1990s.[11]
-            </p>
-        </article>
-        <article id="early" class="hidden">
-            <div class="d-flex">
-                <figure>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Milutin_Tesla.jpg/170px-Milutin_Tesla.jpg"
-                        alt="Tesla's father, Milutin, was an Orthodox priest in the village of Smiljan">
-                </figure>
-                <p>Nikola Tesla was born an ethnic Serb in the village of Smiljan, within the Military Frontier, in the
-                    Austrian Empire (present day Croatia), on 10 July [O.S. 28 June] 1856.[13][14] His father, Milutin
-                    Tesla
-                    (1819–1879),[15] was an Eastern Orthodox priest.[16][17][18][19] Tesla's mother, Đuka Mandić
-                    (1822–1892), whose father was also an Orthodox priest,[20] had a talent for making home craft tools
-                    and
-                    mechanical appliances and the ability to memorize Serbian epic poems. Đuka had never received a
-                    formal
-                    education. Tesla credited his eidetic memory and creative abilities to his mother's genetics and
-                    influence.[21][22] Tesla's progenitors were from western Serbia, near Montenegro.[23]
-                    <br><br>
-                    Tesla was the fourth of five children. He had three sisters, Milka, Angelina and Marica, and an
-                    older
-                    brother named Dane, who was killed in a horse riding accident when Tesla was aged five.[24] In 1861,
-                    Tesla attended primary school in Smiljan where he studied German, arithmetic, and religion.[25] In
-                    1862,
-                    the Tesla family moved to the nearby Gospić, where Tesla's father earlyed as parish priest. Nikola
-                    completed primary school, followed by middle school.[25] In 1870, Tesla moved to Karlovac[26] to
-                    attend
-                    high school at the Higher Real Gymnasium where the classes were held in German, as it was usual
-                    throughout schools within the Austro-Hungarian Military Frontier.[27]
-                </p>
-
-
-            </div>
-
-            <p>Tesla's father, Milutin, was an Orthodox priest in the village of Smiljan
-                Tesla later wrote that he became interested in demonstrations of electricity by his physics
-                professor.[28] Tesla noted that these demonstrations of this "mysterious phenomena" made him want "to
-                know more of this wonderful force".[29] Tesla was able to perform integral calculus in his head, which
-                prompted his teachers to believe that he was cheating.[30] He finished a four-year term in three years,
-                graduating in 1873.</p>
-
-            <p>
-                Tesla later wrote that he became interested in demonstrations of electricity by his physics
-                professor.[28] Tesla noted that these demonstrations of this "mysterious phenomena" made him want "to
-                know more of this wonderful force".[29] Tesla was able to perform integral calculus in his head, which
-                prompted his teachers to believe that he was cheating.[30] He finished a four-year term in three years,
-                graduating in 1873.[31]
-            </p>
-            <p>
-                In 1873, Tesla returned to Smiljan. Shortly after he arrived, he contracted cholera, was bedridden
-                for
-                nine months and was near death multiple times. Tesla's father, in a moment of despair, (who had
-                originally wanted him to enter the priesthood)[32] promised to send him to the best engineering
-                school
-                if he recovered from the illness.[25][26]
-            </p>
-            <p>
-                In 1874, Tesla evaded conscription into the Austro-Hungarian Army in Smiljan[33] by running away
-                southeast of Lika to Tomingaj, near Gračac. There he explored the mountains wearing hunter's garb.
-                Tesla
-                said that this contact with nature made him stronger, both physically and mentally.[25] He read many
-                books while in Tomingaj and later said that Mark Twain's earlys had helped him to miraculously
-                recover
-                from his earlier illness.[26]
-            </p>
-            <p>
-                In 1875, Tesla enrolled at Austrian Polytechnic in Graz on a Military Frontier scholarship. During
-                his
-                first year, Tesla never missed a lecture, earned the highest grades possible, passed nine
-                exams[25][26]
-                (nearly twice as many as required[34]), started a Serb cultural club,[25] and even received a letter
-                of
-                commendation from the dean of the technical faculty to his father, which stated, "Your son is a star
-                of
-                first rank."[34] During his second year, Tesla came into conflict with Professor Poeschl over the
-                Gramme
-                dynamo, when Tesla suggested that commutators were not necessary.
-            </p>
-            <p>
-                Tesla claimed that he earlyed from 3 a.m. to 11 p.m., no Sundays or holidays excepted.[26] He was
-                "mortified when [his] father made light of [those] hard won honors." After his father's death in
-                1879,[33] Tesla found a package of letters from his professors to his father, warning that unless he
-                were removed from the school, Tesla would die through overearly. At the end of his second year, Tesla
-                lost his scholarship and became addicted to gambling.[25][26] During his third year, Tesla gambled
-                away
-                his allowance and his tuition money, later gambling back his initial losses and returning the
-                balance to
-                his family. Tesla said that he "conquered [his] passion then and there," but later in the United
-                States
-                he was again known to play billiards. When examination time came, Tesla was unprepared and asked for
-                an
-                extension to study, but was denied. He did not receive grades for the last semester of the third
-                year
-                and he never graduated from the university.[33]
-            </p>
-            <p>
-
-                Tesla aged 23, c. 1879
-                In December 1878, Tesla left Graz and severed all relations with his family to hide the fact that he
-                dropped out of school.[33] His friends thought that he had drowned in the nearby Mur River.[35]
-                Tesla
-                moved to Maribor, where he earlyed as a draftsman for 60 florins per month. He spent his spare time
-                playing cards with local men on the streets.[33]
-            </p>
-            <p>
-                In March 1879, Tesla's father went to Maribor to beg his son to return home, but he refused.[25]
-                Nikola
-                suffered a nervous breakdown around the same time.[35] On 24 March 1879, Tesla was returned to
-                Gospić
-                under police guard for not having a residence permit.
-            </p>
-            <p>
-                On 17 April 1879, Milutin Tesla died at the age of 60 after contracting an unspecified illness.[25]
-                Some
-                sources say that he died of a stroke.[36] During that year, Tesla taught a large class of students
-                in
-                his old school in Gospić.[25]
-            </p>
-            <p>
-                In January 1880, two of Tesla's uncles put together enough money to help him leave Gospić for
-                Prague,
-                where he was to study. He arrived too late to enroll at Charles-Ferdinand University; he had never
-                studied Greek, a required subject; and he was illiterate in Czech, another required subject. Tesla
-                did,
-                however, attend lectures in philosophy at the university as an auditor but he did not receive grades
-                for
-                the courses.[25][37][38]
-            </p>
-            <p>
-                earlying at Budapest Telephone Exchange
-                In 1881, Tesla moved to Budapest, Hungary, to early under Tivadar Puskás at a telegraph company, the
-                Budapest Telephone Exchange. Upon arrival, Tesla realized that the company, then under construction,
-                was
-                not functional, so he earlyed as a draftsman in the Central Telegraph Office instead. Within a few
-                months, the Budapest Telephone Exchange became functional, and Tesla was allocated the chief
-                electrician
-                position.[25] During his employment, Tesla made many improvements to the Central Station equipment
-                and
-                claimed to have perfected a telephone repeater or amplifier, which was never patented nor publicly
-                described.[26]</p>
-
-
-        </article>
-
-        <article id="work" class="hidden">
-            <p>
-                In 1882, Tivadar Puskás got Tesla another job in Paris with the Continental Edison Company.[39] Tesla
-                began
-                working in what was then a brand new industry, installing indoor incandescent lighting citywide in the
-                form
-                of an electric power utility. The company had several subdivisions and Tesla worked at the Société
-                Electrique Edison, the division in the Ivry-sur-Seine suburb of Paris in charge of installing the
-                lighting
-                system. There he gained a great deal of practical experience in electrical engineering. Management took
-                notice of his advanced knowledge in engineering and physics and soon had him designing and building
-                improved
-                versions of generating dynamos and motors.[40] They also sent him on to troubleshoot engineering
-                problems at
-                other Edison utilities being built around France and in Germany.
-            </p>
-            <h5>Move to the United States</h5>
-            <p>
-                Edison Machine Works on Goerck Street, New York. Tesla found the change from cosmopolitan Europe to
-                working
-                at this shop, located amongst the tenements on Manhattan's lower east side, a "painful surprise".[41]
-                In 1884, Edison manager Charles Batchelor, who had been overseeing the Paris installation, was brought
-                back
-                to the United States to manage the Edison Machine Works, a manufacturing division situated in New York
-                City,
-                and asked that Tesla be brought to the United States as well.[42] In June 1884, Tesla emigrated[43] and
-                began working almost immediately at the Machine Works on Manhattan's Lower East Side, an overcrowded
-                shop
-                with a workforce of several hundred machinists, laborers, managing staff, and 20 "field engineers"
-                struggling with the task of building the large electric utility in that city.[44] As in Paris, Tesla was
-                working on troubleshooting installations and improving generators.[45] Historian W. Bernard Carlson
-                notes
-                Tesla may have met company founder Thomas Edison only a couple of times.[44] One of those times was
-                noted in
-                Tesla's autobiography where, after staying up all night repairing the damaged dynamos on the ocean liner
-                SS
-                Oregon, he ran into Batchelor and Edison, who made a quip about their "Parisian" being out all night.
-                After
-                Tesla told them he had been up all night fixing the Oregon Edison commented to Batchelor that "this is a
-                damned good man".[41] One of the projects given to Tesla was to develop an arc lamp-based street
-                lighting
-                system.[46][47] Arc lighting was the most popular type of street lighting but it required high voltages
-                and
-                was incompatible with the Edison low-voltage incandescent system, causing the company to lose contracts
-                in
-                cities that wanted street lighting as well. Tesla's designs were never put into production, possibly
-                because
-                of technical improvements in incandescent street lighting or because of an installation deal that Edison
-                made with an arc lighting company.[48]
-            </p>
-            <p>
-                Tesla had been working at the Machine Works for a total of six months when he quit.[44] What event
-                precipitated his leaving is unclear. It may have been over a bonus he did not receive, either for
-                redesigning generators or for the arc lighting system that was shelved.[46] Tesla had previous run-ins
-                with
-                the Edison company over unpaid bonuses he believed he had earned.[49][50] In his autobiography, Tesla
-                stated
-                the manager of the Edison Machine Works offered a $50,000 bonus to design "twenty-four different types
-                of
-                standard machines" "but it turned out to be a practical joke".[51] Later versions of this story have
-                Thomas
-                Edison himself offering and then reneging on the deal, quipping "Tesla, you don't understand our
-                American
-                humor".[52][53] The size of the bonus in either story has been noted as odd since Machine Works manager
-                Batchelor was stingy with pay[54] and the company did not have that amount of cash (equivalent to $12
-                million today[when?]) on hand.[55][56] Tesla's diary contains just one comment on what happened at the
-                end
-                of his employment, a note he scrawled across the two pages covering 7 December 1884, to 4 January 1885,
-                saying "Good by to the Edison Machine Works".[47][57]
-            </p>
-        </article>
-        <article id="legacy" class="hidden">
-            <h4> Tesla's legacy has endured in books, films, radio, TV, music, live theater, comics, and video games.
-                The
-                impact of the technologies invented or envisioned by Tesla is a recurring theme in several types of
-                science
-                fiction.</h4>
-
-            <p> He was a pioneer in many fields and his vision included the exploration of solar energy and the power of
-                the sea. He also predicted interplanetary communications and satellites. His work led to advances in
-                wireless communications, lasers, x-rays, radar, lighting, robotics, and much more. Despite his genius,
-                Tesla was often pitted against powerful corporates and government players. He did not receive the
-                recognition he deserved and died a poor man on January 1943. When he passed on, his work was seized by
-                the government though they were later released to his family.To date, some of his papers are still
-                classified by the US government. Some of his popular inventions include: </p>
+<body id="main">
+    <header>
+        <nav id="system-nav">
             <ul>
-                <li>The AC Motor</li>
-                <li>The Tesla Coil</li>
-                <li>The Radio</li>
-                <li>The Remote Control</li>
+                <li id="system-icon">
+                    <i class="fab fa-apple"></i>
+                </li>
+                <li class="system-nav-link">
+                    File
+                </li>
+                <li class="system-nav-link">
+                    Edit
+                </li>
+                <li class="system-nav-link">
+                    View
+                </li>
+                <li class="system-nav-link">
+                    Special
+                </li>
             </ul>
-            <p>Nikola Tesla was one of the most revolutionary inventors that the world will ever see. Despite his
-                groundbreaking innovations, he fell under the shadow of his rivals such as Edison and Marconi. Regarded
-                as an eccentric scientist and often ridiculed by his contemporaries, Tesla was a genius ahead of his
-                time. His technological advancements transformed not only America but the rest of the world. The
-                importance of his contributions is widely recognized today and there is a rock band as well as an
-                electric car company named after him. Tesla’s legacy transcends his vision and brilliant achievements in
-                the engineering field. He also serves as an inspiration to those who work hard and receive little
-                recognition for their efforts.</p>
-            <br>
-        </article>
-    </section>
+        </nav>
+    </header>
+    <div class="container">
+        <section>
+            <div id="section-header">
+                <h6 id="section-title">Note Pad</h6>
+            </div>
+            <div id="section-content">
+                <h1>Steve Jobs</h1>
+                <figure>
+                    <img src="./assets/Young-Steve-Jobs.jpg" alt="Young Steve Jobs">
+                </figure>
+                <p>Steven Paul Jobs (/dʒɒbz/; February 24, 1955 – October 5, 2011) was an American business magnate,
+                    industrial designer, investor, and media proprietor. He was the chairman, chief executive officer
+                    (CEO),
+                    and co-founder of Apple Inc., the chairman and majority shareholder of Pixar, a member of The Walt
+                    Disney Company's board of directors following its acquisition of Pixar, and the founder, chairman,
+                    and
+                    CEO of NeXT. Jobs is widely recognized as a pioneer of the personal computer revolution of the 1970s
+                    and
+                    1980s, along with Apple co-founder Steve Wozniak.</p>
+                <ul id="timeline">
+                    <li>February 24, 1955:
+                        Steven Paul Jobs is born in San Francisco to Joanne Carole Schieble and Abdulfattah Jandali. The
+                        then-unmarried couple give up their son to adoption. Paul and Clara Jobs become Jobs'
+                        non-biological
+                        parents.
+                    </li>
+                    <li>
+
+                        1961:
+                        The Jobs family moves to Mountain View, Calif., part of what would later become known as Silicon
+                        Valley.
+                    </li>
+                    <li>
+                        1968:
+                        Jobs calls Bill Hewlett, the co-founder and co-namesake of Hewlett-Packard, looking for spare
+                        parts to
+                        build a frequency counter. Hewlett gives Jobs the parts, as well as an internship with the
+                        company that
+                        summer.
+                    </li>
+                    <li>
+                        1970:
+                        Meets future Apple co-founder Steve Wozniak through a friend. In Wozniak's 2006 autobiography,
+                        "iWoz,"
+                        he notes that the two "hit it off" immediately, despite their four-year age difference.
+                    </li>
+                    <li>
+                        1972:
+                        Graduates from Homestead High School in Cupertino, Calif., and enrolls at Reed College in
+                        Portland,
+                        Ore., only to drop out a semester later. Jobs would go on to sit in on classes that interested
+                        him, such
+                        as calligraphy, despite not getting credit for them.
+                    </li>
+                    <li>
+                        1974:
+                        Begins a brief stint as an engineer at Atari. Working the night shift, he employs Wozniak to
+                        help
+                        whittle down the hardware required for a prototype of a single-player version of Pong, the game
+                        that
+                        would go on to become Breakout. Jobs leaves Atari in the summer to travel through India, only to
+                        return
+                        to California to live in a commune.
+                    </li>
+                    <li>
+
+                    </li>
+                    <li>
+                        1976:
+                        Co-founds Apple Computer with Wozniak and Ronald Wayne. That same year, the company sells the
+                        Apple I in
+                        the form of a kit that sells for $666.66.
+                    </li>
+                    <li>
+                        January 3, 1977:
+                        Apple incorporates.
+                    </li>
+                    <li>
+                        June 5, 1977:
+                        Releases the Apple II, the first commercially available personal computer in a plastic case with
+                        color
+                        graphics--and Apple's first successful personal computer.
+                    </li>
+                    <li>
+                        December 12, 1980:
+                        Apple goes public, putting Jobs' net worth north of $200 million.
+                    </li>
+                    <li>
+                        January 24, 1984:
+                        Two days after the $1.5 million Ridley Scott-directed "1984" Super Bowl commercial airs,
+                        introduces the
+                        Macintosh to much fanfare during Apple's shareholder meeting. "For the first time ever, I'd like
+                        to let
+                        Macintosh speak for itself." The computer's voice then says, "Never trust a computer you can't
+                        lift."
+                        Macintosh becomes the first commercially successful small computer with a graphical user
+                        interface.
+                    </li>
+                    <li>
+                        September 12, 1985:
+                        CEO John Sculley engineers Jobs' ouster from Apple. Jobs resigns as Apple chairman, saying in a
+                        board
+                        meeting, "I've been thinking a lot, and it's time for me to get on with my life. It's obvious
+                        that I've
+                        got to do something. I'm 30 years old." Soon thereafter, Jobs starts NeXT Computer (which later
+                        becomes
+                        NeXT Software), funded by selling $70 million of his Apple stock. An "interpersonal" NeXT
+                        workstation,
+                        sporting a built-in Ethernet port, is used by Tim Berners-Lee at CERN to become the first server
+                        of the
+                        World Wide Web.
+                    </li>
+                    <li>
+                        February 3, 1986:
+                        For $10 million, buys the Graphics Group division of Lucasfilm that becomes Pixar Animation
+                        Studios.
+                    </li>
+                    <li>
+                        1988:
+                        NeXT Computer releases its first computer.
+                    </li>
+                    <li>
+                        1993: NeXT discontinues hardware business, gets into software instead. The company is renamed
+                        NeXT
+                        Software, Inc.
+                    </li>
+                    <li>
+                        November 29, 1995:
+                        Becomes Pixar's president and CEO. Later in the year, Jobs brings Pixar public, one week after
+                        the
+                        release of "Toy Story," with Tom Hanks doing the voice of Woody and Tim Allen as Buzz Lightyear.
+                        The
+                        film earns $192 million at the box office. Its success helps make it quite attractive for
+                        celebrities to
+                        lend their voices to animated characters.
+                    </li>
+                    <li>
+                        December 10, 1996:
+                        Returns to Apple, as an adviser, after it buys NeXT for $429 million.
+                    </li>
+                    <li>
+                        July 9, 1997:
+                        Becomes CEO, initially as the de facto chief, then as interim chief in September.
+                    </li>
+                    <li>
+
+
+
+                        August 6, 1997: Announces a $150 million investment from Microsoft, coupled with a partnership
+                        on
+                        Microsoft Office and Internet Explorer for the Mac.
+                    </li>
+                    <li>
+                        November 10, 1997:
+                        Introduces the Apple Store, which lets consumers custom-order Apple products directly from the
+                        company
+                        online.
+                    </li>
+                    <li>
+                        January 8, 1998:
+                        Apple returns to profitability.
+                    </li>
+                    <li>
+                        May 6, 1998:
+                        Introduces the iMac, which becomes commercially available in August.
+                    </li>
+                    <li>
+                        January 5, 2000:
+                        Drops the "interim" from his CEO title at the Macworld Expo, joking that he would be using the
+                        title
+                        "iCEO," paying homage to the company's product-naming conventions. Takes a $1 annual salary.
+                        Soon
+                        terminates projects including Newton and OpenDoc, and changes licensing terms to make
+                        Mac-cloning
+                        cost-prohibitive. Technologies developed at NeXT ultimately evolve into Apple products such as
+                        the Mac
+                        OS.
+                    </li>
+                    <li>
+                        January 9, 2001:
+                        Introduces iTunes, then exclusively for Mac users. "iTunes is miles ahead of every other jukebox
+                        application, and we hope its dramatically simpler user interface will bring even more people
+                        into the
+                        digital music revolution."
+                    </li>
+                    <li>
+                        March 24, 2001:
+                        Apple ships the the first version of Mac OS X, code-named Cheetah.
+                    </li>
+                    <li>
+
+
+                        May 19, 2001:
+                        Opens Apple's first retail stores in Tysons Corner, Va., and Glendale, Calif. The store designs
+                        and
+                        personal sales methods proved to be tremendously popular. Apple was running 330 stores worldwide
+                        as of
+                        July 2011.
+                    </li>
+                    <li>
+                        October 23, 2001: Introduces the iPod:
+                        "With iPod, Apple has invented a whole new category of digital music player that lets you put
+                        your
+                        entire music collection in your pocket and listen to it wherever you go...With iPod, listening
+                        to music
+                        will never be the same again." Apple's shipped more than 300 million iPods as of October 2011.
+                    </li>
+                    <li>
+                        July 17, 2002:
+                        Apple introduces the first Windows-compatible iPods at Macworld.
+                    </li>
+                    <li>
+                        April 28, 2003:
+                        Opens the iTunes Music Store in the United States. Apple sold 10 billion songs via iTunes as of
+                        February
+                        24, 2010, and it counted 225 million iTunes accounts with credit cards as of June 2011.
+                    </li>
+                    <li>
+                        October 16, 2003:
+                        Introduces "the day hell froze over," announcing iTunes' compatibility with Windows.
+                    </li>
+                    <li>
+                        August 1, 2004:
+                        Jobs undergoes surgery to remove a cancerous tumor in his pancreas.
+                    </li>
+                    <li>
+                        January 11, 2005:
+                        Apple introduces an iPod Shuffle. "iPod Shuffle is smaller and lighter than a pack of gum and
+                        costs less
+                        than $100...With most flash memory music players, users must use tiny displays and complicated
+                        controls
+                        to find their music; with iPod Shuffle you just relax, and it serves up new combinations of your
+                        music
+                        every time you listen."
+                    </li>
+                    <li>
+                        June 6, 2005:
+                        At WWDC, announces switch from IBM chips to Intel's Core Duo chips with Apple's new MacBook Pro
+                        and
+                        iMac.
+                    </li>
+                    <li>
+                        September 7, 2005:
+                        Introduces iPod Nano: "iPod Nano is the biggest revolution since the original iPod...iPod Nano
+                        is a
+                        full-featured iPod in an impossibly small size, and it's going to change the rules for the
+                        entire
+                        portable music market."
+                    </li>
+                    <li>
+                        October 12, 2005:
+                        Introduces iPod with video: "This is the best music player we've ever made...It's 30 percent
+                        thinner and
+                        has 50 percent more capacity for the same price, and you get video as a bonus."
+                    </li>
+                    <li>
+                        January 13, 2006:
+                        That year, Apple's market capitalization surpasses Dell's.
+                    </li>
+                    <li>
+                        January 25, 2006:
+                        Disney buys Pixar for $7.4 billion; Jobs joins Disney's board as its top shareholder. As of
+                        March 2011,
+                        Jobs owns 138 million shares of Disney, an estimated 7.29 percent of the company, and his net
+                        worth is
+                        estimated to be $8.3 billion. He owns 5.426 million shares of Apple as of February 2011.
+                    </li>
+                    <li>
+                        February 2, 2006:
+                        iTunes sells its billionth song: "I hope that every customer, artist and music company executive
+                        takes a
+                        moment today to reflect on what we've achieved together during the past three years."
+                    </li>
+                    <li>
+
+
+                        Declan McCullagh/CNET News.com
+                        January 9, 2007:
+                        Drops "Computer" from Apple's name. Introduces the iPhone: "iPhone is a revolutionary and
+                        magical
+                        product that is literally five years ahead of any other mobile phone...We are all born with the
+                        ultimate
+                        pointing device--our fingers--and iPhone uses them to create the most revolutionary user
+                        interface since
+                        the mouse." Apple owns 19.1 percent of the smartphone market as of August 2011, having shipped
+                        108
+                        million iPhones worldwide as of March 2011.
+                    </li>
+                    <li>
+                        September 5, 2007:
+                        Introduces the iPod Touch: "The iPod Touch is a landmark iPod, ushering in a whole new
+                        generation of
+                        features based on its revolutionary multitouch interface and built-in Wi-Fi wireless
+                        networking...People
+                        are going to be amazed at how thin it is and how much it does."
+                    </li>
+                    <li>
+                        December 5, 2007:
+                        Inducted in the California Hall of Fame by Gov. Arnold Schwartzenegger.
+                    </li>
+                    <li>
+
+
+
+                        January 15, 2008:
+                        Introduces the App Store as an update to iTunes. Also introduces the MacBook Air. The App Store
+                        facilitated 18 billion app downloads as of October 4, 2011.
+                    </li>
+                    <li>
+                        June 9, 2008:
+                        Unveils MobileMe, Apple's first cloud offering: "Now users who are not part of an enterprise
+                        that runs
+                        Exchange can get the same push email, push calendars and push contacts that the big guys get."
+                    </li>
+                    <li>
+                        January 14, 2009:
+                        Jobs takes a 6-month leave of absence for medical reasons.
+                    </li>
+                    <li>
+                        January 27, 2010:
+                        Introduces the iPad. Apple sells 500,000 iPads during their first week on the market and gains
+                        84
+                        percent of the tablet market by the end of the year, with an estimated 12.9 million shipped as
+                        of
+                        December 10, 2010, and 25 million shipped worldwide as of June 2011. That same month, the
+                        company
+                        discloses that it has sold 200 million iOS devices.
+                    </li>
+                    <li>
+                        November 16, 2010:
+                        Convinces Apple Corps. and EMI Group to make Beatles albums available on iTunes: "We love the
+                        Beatles,
+                        and are honored and thrilled to welcome them to iTunes...It has been a long and winding road to
+                        get
+                        here. Thanks to the Beatles and EMI, we are now realizing a dream we've had since we launched
+                        iTunes 10
+                        years ago."
+                    </li>
+                    <li>
+                        January 17, 2011:
+                        Goes on medical leave of absence from CEO post nearly two years after the six-month break he
+                        took to
+                        undergo a liver transplant.
+                    </li>
+                    <li>
+                        February 10, 2011:
+                        Apple starts selling iPhones via Verizon Wireless, officially ending AT&T's exclusive U.S.
+                        contract.
+                    </li>
+                    <li>
+                        February 15, 2011:
+                        Launches a media subscription service in the App Store: "Our philosophy is simple--when Apple
+                        brings a
+                        new subscriber to the app, Apple earns a 30 percent share; when the publisher brings an existing
+                        or new
+                        subscriber to the app, the publisher keeps 100 percent, and Apple earns nothing."
+                    </li>
+                    <li>
+                        March 2, 2011:
+                        Jobs makes a surprise appearance to take the wraps off the iPad 2 at an invite-only event in
+                        downtown
+                        San Francisco. It's his first public appearance at a company event since announcing his third
+                        medical
+                        leave from the company in January.
+                    </li>
+                    <li>
+                        June 6, 2011:
+                        Gives a keynote speech at Apple's Worldwide Developers Conference, it's Jobs' last public
+                        appearance at
+                        an Apple event.
+                    </li>
+                    <li>
+                        June 7, 2011:
+                        Pitches Cupertino on a new Apple campus.
+                    </li>
+                    <li>
+                        August 9, 2011:
+                        Apple shares edge past those of Exxon Mobil to become the most valuable U.S. company, in terms
+                        of market
+                        capitalization, at $337.17 billion.
+                    </li>
+                    <li>
+                        August 24, 2011:
+                        Resigns from Apple CEO post; becomes chairman.}</li></ul>
+                        <p> View more on <a href="https://en.wikipedia.org/wiki/Steve_Jobs">Wikipedia</a></p>
+            </div>
+            
+        </section>
+        <aside hidden>
+            <nav>
+                <ul>
+                    <li class="desktop-icon">
+                        <a href="">
+                            <i class="fas fa-desktop"></i>
+                            <span>System</span>
+                        </a>
+                    </li>
+                    <li class="desktop-icon">
+
+                        <a href="">
+                            <i class="fas fa-save"></i>
+                            <span> Guide tour</span>
+                        </a>
+                    </li>
+                    <li class="desktop-icon">
+                        <a href="">
+                            <i class="fas fa-folder"></i>
+                            <span>New folder</span>
+                        </a>
+                    </li>
+                    <li class="desktop-icon">
+                        <a href="">
+                            <i class="fas fa-font"></i>
+                            <span>Fonts</span>
+                        </a>
+                    </li>
+                    <li class="desktop-icon">
+                        <a href="">
+                            <i class="fas fa-trash"></i>
+                            <span>Trash</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
 </body>
 
 </html>

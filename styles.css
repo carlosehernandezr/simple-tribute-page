@@ -1,135 +1,185 @@
+:root{
+    --primary-color: #f1f1f1;
+    --base-color: #4d4d4d;
+    --text-color:#020202;
+}
+html{
+    font-size: 20px;
+    color: var(--text-color);
+    font-family: 'Special Elite', serif;
+    background-color: black;
+}
 
 body{    
+    border: 1px black dotted;
+    margin: auto;
+    margin-top: 1.5em;
+    border-radius: 1em;
+    background-image: url("https://www.k-tuin.com/media/wysiwyg/blog/2020/Enero/System1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    background-image: url("https://wallpaperaccess.com/full/1152708.jpg");
-    font-size: 20px;
-    color: #ffffff;
-    margin: 0;
-    font-family: sans-serif;
-}
-header{
-    background-color: rgba(0, 0, 0, 0.76);
-    padding-left: 1em;
-    padding-top: 0.5em;
-    margin-left:80px;
-}
-section{
-    background-color: rgba(0, 0, 0, 0.76);
-    margin-left:80px;
-}
-nav{
-    background-color: rgba(0, 0, 0, 0.925);
-    height: 100%;
-    width: 80px;
-}
-nav ul{
-    display: block;
-    margin: 0;
-    padding:0;
-    width: 80px;
-}
-a{
-    color: white;
-    text-decoration: none;
+    height: 90vh;
+    width: 80vw;
+    box-shadow: 5px 5px 35px 5px rgb(22, 22, 22);
 }
 
-.title-container small a{
-    color: gold;
+header{
+    width: 100%;
+    height: 2em;
+    background-color: var(--primary-color);
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
-.btn{
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#system-nav{
+    height: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px black solid;
+}
+
+#system-nav ul{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 2em;
+    font-weight: 700;
+}
+#system-icon{
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.system-nav-link{
+    margin-left: 1em;
+    font-size: 0.8em;
+}
+
+.container{
+    display: flex;
+}
+
+section{
+    width: 60vw;
+    height: fit-content;
+    background-color: var(--primary-color);
+    margin: 1em;
+    border: 2px black solid;
+   
+}
+#section-content{
+    overflow-y: auto;
+    font-size: 0.9em;
+    text-align: justify;
+    height: 70vh;
+}
+figure{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size:0.6em;
-    list-style: none;
-    height: 80px;
-    text-transform: uppercase;
+}
+#section-content h1{
+    text-align: center;
+    margin: 0;
+}
+#section-content img{
+    width: auto;
+    height: 200px;
+}
+#section-content::-webkit-scrollbar {
+    width: 20px;
+    background-color: var(--primary-color);
+    border: 1px black solid;
 }
 
-.btn:hover{
-    color: gold;
-    cursor: pointer;
+#section-content::-webkit-scrollbar-button:single-button {
+    background-color: var(--primary-color);
+    display: block;
+    border: 1px black solid;
+    height: 20px;
+    width: 20px;
 }
-.btn label:hover{
-    cursor: pointer;
-}
-.source-code{
-    margin-left: auto;
-    margin-right: 2%;
-    margin-top: 2%;
-
-}
-.source-code a{
-    cursor: pointer;
-    transition: 0.3s ease-in-out 0.1s; 
-
-}
-.source-code a:hover{
-    color: gold;
+#section-content::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-image: url('./assets/up-arrow.svg');
 }
 
-p{
-    text-align: justify;
+#section-content::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-image: url('./assets/down-arrow.svg');
 }
 
-.active{
-    color: gold;
-    transform: scale(1.1);
-    transition: 0.3s ease-out 0.1s; 
-    background-color: rgba(20, 20, 20, 0.725);
+#section-header{
+    position: sticky;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px black solid;
+    font-size: 1.2em;
+    
 }
-.btn{
-    transition: 0.3s ease-in 0.1s; 
+aside{
+    width: 20%;
 }
-.btn{
+p,h1{
+    padding: 1em;
+}
+.desktop-icon{
+    margin: 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop-icon a{
     display: flex;
     flex-direction: column;
-}
-.btn i, .btn label{
-    margin: 2px;
-}
-.btn label{
-    font-size: 0.75em;
-}
-
-h1{
-    color: #ffffff;
-    text-align: left;
-    font-size: 2em;
-}
-
-
-i{
-    font-size: 2em;
-}
-.d-flex{
-    display: flex;
-}
-.d-block{
-    display: block;
-}
-.fixed-left{
-    position: fixed;
-}
-
-.article-active{
-    transition: opacity 1s ease-in-out;
-    opacity: 1;
-    width: auto;
-    height: auto;
-    overflow: visible;
-    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
 
 }
+.desktop-icon a i{
+    margin-bottom: 0;
+    font-size: 1.7em;
+}
 
-.hidden{
-    opacity: 0;
-    width: 0;
-    height: 0;
-    overflow: hidden
+.desktop-icon a span{
+    font-size: 0.7em;
+    background-color: var(--primary-color);
+    color:black;
+    padding: 5px;
+    border: 1px black dotted;
+}
+#timeline{
+    list-style: square;
+}
+#timeline li{
+    margin-bottom: 8px;
+    margin-right: 20px;
 }
 
 
-
+@media only screen and (max-width:1000px){
+    #section-content img{
+        width: auto;
+        height: 100px;
+    }
+    p{
+        font-size: 0.7em;
+    }
+    #section-content{
+        height: 60vh;
+    }
+}
