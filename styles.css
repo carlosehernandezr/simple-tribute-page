@@ -15,9 +15,8 @@ body{
     margin: auto;
     margin-top: 1.5em;
     border-radius: 1em;
-    background-image: url("https://www.k-tuin.com/media/wysiwyg/blog/2020/Enero/System1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("./assets/background.png");
+    background-repeat: repeat;
     height: 90vh;
     width: 80vw;
     box-shadow: 5px 5px 35px 5px rgb(22, 22, 22);
@@ -72,7 +71,7 @@ a{
 }
 
 section{
-    width: 60vw;
+    width: 80vw;
     height: fit-content;
     background-color: var(--primary-color);
     margin: 1em;
@@ -89,6 +88,7 @@ figure{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 #section-content h1{
     text-align: center;

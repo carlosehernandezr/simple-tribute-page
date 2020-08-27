@@ -12,9 +12,10 @@
     <script src="scripts.js"></script>
     <!--Link fontawesome icons-->
     <script src="https://kit.fontawesome.com/2285801f71.js" crossorigin="anonymous"></script>
-
+    <!--Link fcc test-->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <!--Link font-->
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-
 
 </head>
 
@@ -41,15 +42,19 @@
         </nav>
     </header>
     <div class="container">
-        <section>
+        <section id="tribute-info">
             <div id="section-header">
                 <h6 id="section-title">Note Pad</h6>
             </div>
             <div id="section-content">
                 <h1>Steve Jobs</h1>
-                <figure>
-                    <img src="./assets/Young-Steve-Jobs.jpg" alt="Young Steve Jobs">
-                </figure>
+                <div id="img-div">
+                    <figure>
+                        <img id="image" src="./assets/Young-Steve-Jobs.jpg" alt="Young Steve Jobs">
+                        <br>
+                        <caption id="img-caption">Young Steve Jobs</caption>
+                    </figure>
+                </div>
                 <p>Steven Paul Jobs (/dʒɒbz/; February 24, 1955 – October 5, 2011) was an American business magnate,
                     industrial designer, investor, and media proprietor. He was the chairman, chief executive officer
                     (CEO),
@@ -423,10 +428,12 @@
                     </li>
                     <li>
                         August 24, 2011:
-                        Resigns from Apple CEO post; becomes chairman.}</li></ul>
-                        <p> View more on <a href="https://en.wikipedia.org/wiki/Steve_Jobs">Wikipedia</a></p>
+                        Resigns from Apple CEO post; becomes chairman.}</li>
+                </ul>
+                <p> View more on <a id="tribute-link" target="_blank"
+                        href="https://en.wikipedia.org/wiki/Steve_Jobs">Wikipedia</a></p>
             </div>
-            
+
         </section>
         <aside hidden>
             <nav>
